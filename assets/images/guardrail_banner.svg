@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180e05"/>
+      <stop offset="50%" stop-color="#2a1807"/>
+      <stop offset="100%" stop-color="#0a0502"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3d2008"/>
+      <stop offset="100%" stop-color="#1f0f04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="500" rx="18" fill="url(#bg2)"/>
+
+  <g stroke="#f59e0b" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="900" y1="0" x2="900" y2="500" />
+  </g>
+
+  <rect x="380" y="40" width="440" height="34" rx="17" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="600" y="63" fill="#fde68a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">🔒 SUPPLY CHAIN DEFENSE &amp; SHIFT-LEFT</text>
+
+  <text x="600" y="125" fill="url(#g2)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="44" font-weight="900" text-anchor="middle">CI/CD SECURITY POLICY GUARD</text>
+  <text x="600" y="160" fill="#fed7aa" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" text-anchor="middle">Automated Secret Leak Prevention, SBOM Generation &amp; Static Vulnerability Gates</text>
+
+  <g transform="translate(80, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c2)" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#f59e0b" font-size="22">🔑</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Entropy Secret Scan</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Shannon entropy secret detection</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">300+ Pre-compiled regex patterns</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Pre-commit git hook blocking</text>
+    <rect x="30" y="175" width="85" height="20" rx="6" fill="#b45309" fill-opacity="0.4"/>
+    <text x="72" y="189" fill="#fef08a" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">ZERO LEAKS</text>
+  </g>
+
+  <g transform="translate(440, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c2)" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#f97316" font-size="22">📦</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">SBOM Verification</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">CycloneDX &amp; SPDX parsing</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Transitive dependency tree audit</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Automated CVE database lookup</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#c2410c" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#ffedd5" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">SPDX COMPLIANT</text>
+  </g>
+
+  <g transform="translate(800, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#c2)" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#ef4444" font-size="22">🚫</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Hard Policy Gate</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Automated pull-request blockers</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Open Policy Agent (OPA) rules</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Cryptographic build attestation</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#b91c1c" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#fee2e2" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">SLSA LEVEL 3</text>
+  </g>
+</svg>
